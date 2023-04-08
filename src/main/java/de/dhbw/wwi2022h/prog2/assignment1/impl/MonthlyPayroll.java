@@ -56,6 +56,7 @@ public class MonthlyPayroll {
         for (Payslip current : payslipsList) {
             totalBonus += current.calculateBonus();
         }
+        // Kommentar
         return totalBonus;
     }
 }
