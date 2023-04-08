@@ -57,6 +57,7 @@ public class MonthlyPayroll {
             totalBonus += current.calculateBonus();
         }
         // Kommentar
+
         return totalBonus;
     }
 }
